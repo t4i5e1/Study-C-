@@ -8,7 +8,11 @@ namespace Example
         {
             int a = 10;
 
-            a = --;
+            a--;
+            a--;
+            Console.WriteLine(a);
+
+            a /=4;
             Console.WriteLine(a);
         }
     }
